@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Sample FirebaseUI App</title>
+    <title>Sign Up!</title>
     
     <!-- *******************************************************************************************
        * TODO(DEVELOPER): Paste the initialization snippet from:
@@ -51,12 +51,15 @@
       var ui = new firebaseui.auth.AuthUI(firebase.auth());
       // The start method will wait until the DOM is loaded.
       ui.start('#firebaseui-auth-container', uiConfig);
+      ui.catch(function(error){
+          
+      })
     </script>
   </head>
   <body>
     <!-- The surrounding HTML is left untouched by FirebaseUI.
          Your app may use that space for branding, controls and other customizations.-->
-    <h1>Welcome to My Awesome App</h1>
+    <h1>Sign In</h1>
     <div id="firebaseui-auth-container"></div>
   </body>
 </html>
