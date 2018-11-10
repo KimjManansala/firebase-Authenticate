@@ -9,23 +9,22 @@
 <!-- Custom styles for this template -->
 
 <body>
-	<div>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-			<a class="navbar-brand" href="index.html">Australia</a> <button aria-controls="navbarSupportedContent" aria-expanded="false"
-			 aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse"
-			 type="button"><span class="navbar-toggler-icon"></span></button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item active" id="dashboard-div">
-						<a class="nav-link" href="dashboard.html">Dashboard <span class="sr-only">(current)</span></a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
+        <div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                    <a class="navbar-brand" href="../index.html">Australia</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active" id="dashboard-div">
+                                    <a class="nav-link" href="../dashboard.html">Dashboard <span class="sr-only">(current)</span></a>
+                                </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
 	<div class="login-div" id="login-div">
 		<form class="form-signin">
 			<h1 class="h3 mb-3 font-weight-normal text-center">Please login</h1><label class="sr-only" for="inputEmail">Email
@@ -49,18 +48,18 @@
 	<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js">
 	</script>
 	<script>
-		// Initialize Firebase
-		var config = {
-			apiKey: "AIzaSyA-5US4-U6uTdaqIAKQue2gRANjZKU3uVI",
-			authDomain: "dcfirebase-fd805.firebaseapp.com",
-			databaseURL: "https://dcfirebase-fd805.firebaseio.com",
-			projectId: "dcfirebase-fd805",
-			storageBucket: "dcfirebase-fd805.appspot.com",
-			messagingSenderId: "354648395705"
-		};
-		firebase.initializeApp(config);
-	</script>
-	<script src="index.js">
+	 // Initialize Firebase
+	 var config = {
+    apiKey: "AIzaSyA-5US4-U6uTdaqIAKQue2gRANjZKU3uVI",
+    authDomain: "dcfirebase-fd805.firebaseapp.com",
+    databaseURL: "https://dcfirebase-fd805.firebaseio.com",
+    projectId: "dcfirebase-fd805",
+    storageBucket: "dcfirebase-fd805.appspot.com",
+    messagingSenderId: "354648395705"
+  };
+  firebase.initializeApp(config);
+	</script> 
+	<script src="/Firebase/index.js">
 	</script>
 </body>
 

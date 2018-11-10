@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Sample FirebaseUI App</title>
+    <title>Sign Up!</title>
     
     <!-- *******************************************************************************************
        * TODO(DEVELOPER): Paste the initialization snippet from:
@@ -26,7 +26,7 @@
     <script type="text/javascript">
       // FirebaseUI config.
       var uiConfig = {
-        signInSuccessUrl: 'Login_Success_Stub.html',
+        signInSuccessUrl: '/Firebase/dashboard.html',
         signInOptions: [
           // Leave the lines as is for the providers you want to offer your users.
           firebase.auth.GoogleAuthProvider.PROVIDER_ID,
@@ -51,12 +51,14 @@
       var ui = new firebaseui.auth.AuthUI(firebase.auth());
       // The start method will wait until the DOM is loaded.
       ui.start('#firebaseui-auth-container', uiConfig);
+      
     </script>
   </head>
   <body>
     <!-- The surrounding HTML is left untouched by FirebaseUI.
          Your app may use that space for branding, controls and other customizations.-->
-    <h1>Welcome to My Awesome App</h1>
+    <h1>Sign Up</h1>
     <div id="firebaseui-auth-container"></div>
+ 
   </body>
 </html>

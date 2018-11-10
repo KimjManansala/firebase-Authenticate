@@ -4,11 +4,13 @@ firebase.auth().onAuthStateChanged(function(user) {
         document.getElementById("user-div").style.display = "initial";
         document.getElementById("login-div").style.display = "none";
         document.getElementById("dashboard-div").style.display = "initial";
+        document.getElementById("signup-div").style.display = "none";
 	} else {
 		// No user is signed in.
         document.getElementById("user-div").style.display = "none";
         document.getElementById("login-div").style.display = "initial";
         document.getElementById("dashboard-div").style.display = "none";
+        document.getElementById("signup-div").style.display = "initial";
 	}
 })
 
